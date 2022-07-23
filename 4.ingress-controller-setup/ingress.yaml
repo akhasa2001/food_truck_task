@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: testservice
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: "${var.google_domain_name}"
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: testservice
+            port:
+              number: 80
+              
