@@ -5,13 +5,13 @@
 ### Instructions
 1 Clone a repository 
 ```
-cd && git clone https://github.com/Evolve-Cyber-Organization/project_infrastructure.git
+cd && git clone cd && https://github.com/akhasa2001/food_truck_task.git
 ```
 
 2 Move to the folder
 
 ``` 
-cd project_infrastructure/2.cluster_setup
+cd food_truck_task/2.cluster_setup
 ```
 
 3. Update Module configurations accordingly
